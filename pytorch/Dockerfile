@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y  \
     libgl1-mesa-dev \
     build-essential \
     git \
-    && pip3 install jupyterlab opencv-python \
+    && pip3 install jupyterlab opencv-python jedi pyreadline \
     && rm -rf /var/lib/apt/lists/*
 
 RUN git clone https://github.com/facebookresearch/detectron2.git && pip install -e detectron2
