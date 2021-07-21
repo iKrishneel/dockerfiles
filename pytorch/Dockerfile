@@ -1,5 +1,5 @@
-# FROM pytorch/pytorch:latest
-FROM pytorch/pytorch:1.7.1-cuda11.0-cudnn8-devel
+FROM pytorch/pytorch:latest
+# FROM pytorch/pytorch:1.7.1-cuda11.0-cudnn8-devel
 
 MAINTAINER krishneel@krishneel
 
